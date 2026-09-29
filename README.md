@@ -8,9 +8,22 @@ The memo is the skill's sole substantive writing authority. The skill does not i
 
 ## Install and use
 
-Keep the `applied-micro-writing` folder intact when installing it.
+### Install without Git
 
-### Codex
+1. [Download `applied-micro-writing.zip`](https://github.com/joshimridul/applied-micro-checklist-kz/releases/latest/download/applied-micro-writing.zip).
+2. Open the downloaded ZIP. It contains an `applied-micro-writing` folder.
+3. Move that folder to the appropriate location:
+   - Codex, all projects: `~/.agents/skills/`
+   - Codex, one project: `.agents/skills/` inside the project
+   - Claude Code, all projects: `~/.claude/skills/`
+   - Claude Code, one project: `.claude/skills/` inside the project
+4. Codex detects the skill automatically; restart it if the skill does not appear. In Claude Code, run `/reload-skills` if needed.
+
+On macOS, press Shift–Command–G in Finder and enter the destination path. If the path does not exist, create it first. To update a manual installation, download the ZIP again and replace the installed `applied-micro-writing` folder.
+
+### Install with Git
+
+#### Codex
 
 Install directly from GitHub for the current user:
 
@@ -21,7 +34,7 @@ git clone https://github.com/joshimridul/applied-micro-checklist-kz.git ~/.agent
 
 Invoke it as `$applied-micro-writing`; Codex may also select it automatically when the request matches its description. Codex detects newly installed skills automatically; restart it if the skill does not appear.
 
-### Claude Code
+#### Claude Code
 
 Install directly from GitHub for the current user:
 
@@ -32,7 +45,7 @@ git clone https://github.com/joshimridul/applied-micro-checklist-kz.git ~/.claud
 
 For a project-scoped installation, use `.claude/skills/applied-micro-writing/` as the clone destination instead. Invoke it as `/applied-micro-writing`; Claude Code may also select it automatically when the request matches its description. If a newly created skills directory does not appear in the current session, run `/reload-skills`.
 
-### Update
+#### Update a Git installation
 
 Pull the latest version from GitHub using the path where the skill is installed:
 
@@ -50,11 +63,11 @@ The examples below use Codex syntax. In Claude Code, start the request with `/ap
 
 Example revision request:
 
-> Use `$applied-micro-writing` to revise this introduction under Zhuravskaya's memo. Preserve the research meaning, estimates, uncertainty, citations, and LaTeX commands. Return clean prose only.
+> Use `$applied-micro-writing` to revise this introduction under Zhuravskaya's checklist. Preserve the research meaning, estimates, uncertainty, citations, and LaTeX commands. Return clean prose only.
 
 Example audit request:
 
-> Use `$applied-micro-writing` to audit this manuscript under all twelve sections of Zhuravskaya's memo. Include the exhibits, notes, bibliography, and appendix. Identify what you inspected and what could not be checked. Do not add methodological recommendations.
+> Use `$applied-micro-writing` to audit this manuscript under all twelve sections of Zhuravskaya's checklist. Include the exhibits, notes, bibliography, and appendix. Identify what you inspected and what could not be checked. Do not add methodological recommendations.
 
 ## Scope
 
@@ -77,6 +90,4 @@ Example audit request:
 
 ## Attribution
 
-The source memo is by Ekaterina Zhuravskaya of the Paris School of Economics. The checklist and runtime packaging are an adaptation for agent use; they are not represented as authored or endorsed by Zhuravskaya. Rule IDs are navigational additions and do not appear in the memo.
-
-The memo's references to a journal policy and a commercial service are preserved as source statements, not presented as current independent verification.
+The source memo is by Ekaterina Zhuravskaya of the Paris School of Economics. The checklist and runtime packaging are an adaptation for agent use; they are not represented as authored or endorsed by Zhuravskaya.
