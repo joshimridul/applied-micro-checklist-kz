@@ -1,6 +1,6 @@
 # Applied microeconomics writing
 
-**Version 1.2.0 · source-faithful edition**
+**Version 1.2.0**
 
 An Agent Skill for Codex and Claude Code that drafts, revises, copyedits, and audits applied-microeconomics papers under Ekaterina Zhuravskaya's *Rules for Good Academic Writing in Applied Economics: A Checklist of Dos and Don’ts*.
 
@@ -9,8 +9,6 @@ The memo is the skill's sole substantive writing authority. The skill does not i
 ## Install and use
 
 Keep the `applied-micro-writing` folder intact when installing it.
-
-The commands below use HTTPS. If the repository is private, authenticate with GitHub before cloning it.
 
 ### Codex
 
