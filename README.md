@@ -43,7 +43,7 @@ mkdir -p ~/.claude/skills
 git clone https://github.com/joshimridul/applied-micro-checklist-kz.git ~/.claude/skills/applied-micro-writing
 ```
 
-For a project-scoped installation, use `.claude/skills/applied-micro-writing/` as the clone destination instead. Invoke it as `/applied-micro-writing`; Claude Code may also select it automatically when the request matches its description. If a newly created skills directory does not appear in the current session, run `/reload-skills`.
+For a project-specific installation, use `.claude/skills/applied-micro-writing/` as the clone destination instead. Invoke it as `/applied-micro-writing`; Claude Code may also select it automatically when the request matches its description. If a newly created skills directory does not appear in the current session, run `/reload-skills`.
 
 #### Update a Git installation
 
