@@ -1,0 +1,4 @@
+interface:
+  display_name: "Applied Microeconomics Writing"
+  short_description: "Apply Zhuravskaya's applied-economics writing rules"
+  default_prompt: "Use $applied-micro-writing to revise or audit this applied-microeconomics manuscript under Zhuravskaya's memo."

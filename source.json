@@ -1,0 +1,31 @@
+{
+  "skill": "applied-micro-writing",
+  "version": "1.2.0",
+  "finalized_on": "2026-09-28",
+  "source": {
+    "title": "Rules for Good Academic Writing in Applied Economics",
+    "subtitle": "A Checklist of Dos and Don’ts",
+    "author": "Ekaterina Zhuravskaya",
+    "affiliation_as_printed": "Paris School of Economics",
+    "document_date": null,
+    "pages": 8,
+    "included_copy": "references/original-memo.pdf",
+    "sha256": "964680694155bb15b79bb53debe023fcbfbda4411aaa546767729c62217dd7ca",
+    "scope_as_stated": "Form rather than content of academic writing; applied microeconomics papers."
+  },
+  "adaptation": {
+    "source_paraphrase": "references/memo-checklist.md",
+    "rule_ids_added_for_navigation": true,
+    "outside_writing_guides_used": false,
+    "research_methods_review_in_scope": false,
+    "explicit_author_preferences": [
+      "Exhibits at the end",
+      "No citations in conclusions"
+    ]
+  },
+  "package": {
+    "runtime_files": 7,
+    "requires_external_service": false,
+    "requires_other_writing_skill": false
+  }
+}
