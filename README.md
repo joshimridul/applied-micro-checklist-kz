@@ -67,13 +67,6 @@ Example audit request:
 
 > Use `$applied-micro-writing` to audit this manuscript under all twelve sections of Zhuravskaya's checklist. Include the exhibits, notes, bibliography, and appendix. Identify what you inspected and what could not be checked. Do not add methodological recommendations.
 
-## Scope
-
-- The memo concerns writing form in applied microeconomics, not research content.
-- A local drafting or editing request remains local; the skill does not append an unsolicited full audit.
-- A whole-paper audit covers all twelve memo topics and distinguishes observed findings from checks that require missing or uninspected material.
-- Explicit user instructions and supplied venue requirements are retained. Any departure from the memo is identified without rewriting the source rule.
-- The memo's expressly personal preferences remain preferences, and its qualified thresholds retain their qualifications.
 
 ## Contents
 
