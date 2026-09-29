@@ -4,8 +4,6 @@
 
 An Agent Skill for Codex and Claude Code that drafts, revises, copyedits, and audits applied-microeconomics papers under Ekaterina Zhuravskaya's *Rules for Good Academic Writing in Applied Economics: A Checklist of Dos and Don’ts*.
 
-The memo is the skill's sole substantive writing authority. The skill does not import advice from other writing guides or turn a writing request into an econometric, identification, robustness, novelty, or research-validity review.
-
 ## Install and use
 
 ### Install without Git
