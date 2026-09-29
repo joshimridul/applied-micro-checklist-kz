@@ -73,7 +73,7 @@ Example audit request:
 | File | Purpose |
 |---|---|
 | [SKILL.md](SKILL.md) | Runtime instructions and scope |
-| [Source checklist](references/memo-checklist.md) | Source-faithful checklist with navigation IDs |
+| [Source checklist](references/memo-checklist.md) | Source checklist with navigation IDs |
 | [Original memo](references/original-memo.pdf) | Eight-page source supplied with the package |
 | [Audit template](templates/review.md) | Optional reporting structure for requested audits |
 | [Source metadata](source.json) | Attribution, checksum, and package metadata |
