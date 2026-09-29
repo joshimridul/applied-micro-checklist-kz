@@ -11,7 +11,7 @@ description: >-
 
 # Applied microeconomics writing
 
-Apply Ekaterina Zhuravskaya's eight-page memo, *Rules for Good Academic Writing in Applied Economics: A Checklist of Dos and Don'ts*, to the writing task the user requested. The memo concerns the **form of applied-microeconomics papers, not their research content**.
+Apply Ekaterina Zhuravskaya's eight-page memo, *Rules for Good Academic Writing in Applied Economics: A Checklist of Dos and Don'ts*, to the writing task the user requested. The memo concerns the **form and style of applied microeconomics papers, not their research content**.
 
 ## Use the source faithfully
 
