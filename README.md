@@ -10,13 +10,41 @@ The memo is the skill's sole substantive writing authority. The skill does not i
 
 Keep the `applied-micro-writing` folder intact when installing it.
 
+The commands below use HTTPS. If the repository is private, authenticate with GitHub before cloning it.
+
 ### Codex
 
-Place the folder at `~/.codex/skills/applied-micro-writing/`, or add it through the skill-loading process supported by your Codex environment. Invoke it as `$applied-micro-writing`; Codex may also select it automatically when the request matches its description.
+Install directly from GitHub for the current user:
+
+```sh
+mkdir -p ~/.agents/skills
+git clone https://github.com/joshimridul/applied-micro-checklist-kz.git ~/.agents/skills/applied-micro-writing
+```
+
+Invoke it as `$applied-micro-writing`; Codex may also select it automatically when the request matches its description. Codex detects newly installed skills automatically; restart it if the skill does not appear.
 
 ### Claude Code
 
-Place the folder at `~/.claude/skills/applied-micro-writing/` for personal use or `.claude/skills/applied-micro-writing/` inside a project. Invoke it as `/applied-micro-writing`; Claude Code may also select it automatically when the request matches its description.
+Install directly from GitHub for the current user:
+
+```sh
+mkdir -p ~/.claude/skills
+git clone https://github.com/joshimridul/applied-micro-checklist-kz.git ~/.claude/skills/applied-micro-writing
+```
+
+For a project-scoped installation, use `.claude/skills/applied-micro-writing/` as the clone destination instead. Invoke it as `/applied-micro-writing`; Claude Code may also select it automatically when the request matches its description. If a newly created skills directory does not appear in the current session, run `/reload-skills`.
+
+### Update
+
+Pull the latest version from GitHub using the path where the skill is installed:
+
+```sh
+# Codex
+git -C ~/.agents/skills/applied-micro-writing pull --ff-only
+
+# Claude Code
+git -C ~/.claude/skills/applied-micro-writing pull --ff-only
+```
 
 The repository is named `applied-micro-checklist-kz`; the runtime skill name remains `applied-micro-writing` in both tools.
 
